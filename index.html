@@ -4,11 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lensY Photography</title>
+    <title>Kavih Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&family=Playfair+Display&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div class="main-div">
+        <header id="header">
+            <div class="div-company-logo-name">
+                <div class="logo-div">
+                    <img id="header-img" alt="Kavih Photography company logo" src="assets/logo.png" />
+                </div>
+                <div class="div-company-name">
+                    <h1>Kavih Photography</h1>
+                </div>
+            </div>
+            <nav id="nav-bar">
+                <p><a  class="nav-link" href="#form">Home</a></p>
+                <p><a  class="nav-link" href="#about">About us</a></p>
+                <p><a  class="nav-link" href="#team">Our Team</a></p>
+                <p><a  class="nav-link" href="#plans">Plans</a></p>
+            </nav>
+        </header>
 
+        <div id="sizer"></div>
+
+        <div class="home">
+            <h2 class="heading">On the List.</h2>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <div class="div-email">
+                    <input id="email" type="email" name="email" placeholder="Enter your email address" required/>
+                </div>
+                <div class="div-button">
+                    <button type="submit" id="submit">Join the list</button>
+                </div>
+            </form>
+        </div>
+        <div id="about">
+            <h2 class="heading">About Kavih Photography</h2>
+            <p>Kavih is a photography company based in Coastal Kenya. We have worked with clients from all over the country. In the year 2021, Kavih was named the best photography company during the national annual art awards. We do photo and video coverage for various events including but not limited to: <em>
+                <ul>
+                    <p>Engagements</p>
+                    <p>Weddings</p>
+                    <p>Baby showers</p>
+                    <p>Birthdays</p>
+                    <p>Graduations</p>
+                    <p>Funerals</p>
+                </ul>
+            </em>
+            </p>
+        </div>
+        <div id="team">
+            <iframe id="video" src="https://www.youtube.com/embed/ttFLUB3I7Sg" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div id="plans">
+            <!-- populated from js file-->
+        </div>
+
+        <footer id="footer">
+            <div class="footer-links">
+                <div class="footer-link"><a class="link" href="#"><b>Privacy</b></a></div>
+                <div class="footer-link"><a class="link" href="#"><b>Terms</b></a></div>
+                <div class="footer-link"><a class="link" href="#"><b>Contact</b></a></div>
+            </div>
+            <div class="copyright">
+                &copy; 2022 Developed by Lucky Tsuma
+            </div>
+        </footer>
+    </div>
+    
+    <script src="index.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
