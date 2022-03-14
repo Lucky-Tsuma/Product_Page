@@ -43,13 +43,13 @@ plans.map(element => {
 menuIcon.onclick = () => {
     if (navBarDisplay === 'none') {
         document.querySelector('#nav-bar').style.display = 'flex';
-        header.style.height = '340px';
-        sizer.style.minHeight = '340px';
+        header.style.height = '360px';
+        sizer.style.minHeight = '360px';
         navBarDisplay = 'flex';
     } else {
         document.querySelector('#nav-bar').style.display = "none";
-        header.style.height = '140px';
-        sizer.style.minHeight = '140px';
+        header.style.height = '160px';
+        sizer.style.minHeight = '160px';
         navBarDisplay = 'none';
     }
 }
@@ -58,8 +58,8 @@ for(let i = 0; i < links.length; i++) {
   links[i].addEventListener('click', function(){
     if(window.innerWidth < 720) {
         document.querySelector('#nav-bar').style.display = "none";
-        header.style.height = '140px';
-        sizer.style.minHeight = '140px';
+        header.style.height = '160px';
+        sizer.style.minHeight = '160px';
         navBarDisplay = 'none';
     }
   });
@@ -75,7 +75,7 @@ window.addEventListener('resize', function(){
     } else {
         document.querySelector('#nav-bar').style.display = 'none';
         navBarDisplay = 'none';
-        header.style.height = '140px';
-        sizer.style.minHeight = '140px';
+        header.style.height = '160px';
+        sizer.style.minHeight = '160px';
     }
 });
