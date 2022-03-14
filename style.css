@@ -213,11 +213,11 @@ body {
     #header {
         flex-direction: column;
         align-items: center;
-        height: 140px;
+        height: 160px;
     }
 
     #sizer {
-        min-height: 140px;
+        min-height: 160px;
     }
 
     #plans {
